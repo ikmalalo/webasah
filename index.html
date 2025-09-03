@@ -6,102 +6,98 @@
     <title>Portfolio | Ikmal</title>
     <link rel="stylesheet" href="css/home.css">
     <link rel="icon" type="image/png" href="images/usagi.jpg">
-
 </head>
 <body>
-    <div class="container">
-        <!-- Header dengan navigasi -->
-        <header class="fade-in">
-            <div class="header-content">
-                <div class="logo">PORTFOLIO</div>
-                <nav>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
-        <div class="content-wrapper">
-            <!-- Main content area -->
-            <main>
-                <!-- Hero section -->
-                <section class="hero fade-in-delayed" id="home">
-                    <div class="hero-content">
-                        <h1>Ikmal Ali Azhari</h1>
-                        <p>Junior Full Stack Developer</p>
-                        <a href="#projects" class="cta-button">Lihat Portfolio</a>
-                    </div>
-                </section>
-
-                <!-- article aboutme -->
-                <article class="popup-card" id="about">
-                    <h2>Tentang Saya</h2>
-                    <p>Saya suka pemrograman dan ingin terus berkembang menjadi Senior Developer seperti Sandika Ghalih karena saat ini saya masih Junior jadi saya ingin terus belajar dan eksplor dunia IT, dan apalagi di Jamannnya Era AI ini saya menjadikan AI alat Membantu saya dalam programming untuk menyelesaikan projek saya karena saya belum sepenuhnya seperti para Senior developer.</p>
-                </article>
-
-                <!-- article skills -->
-                <article class="popup-card" id="skills">
-                    <h2>Keahlian Teknis</h2>
-                    <p>Berikut adalah teknologi dan tools yang saya kuasai:</p>
-                    <div class="skills-grid">
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">CSS</span>
-                        <span class="skill-tag">Bootstrap</span>
-                        <span class="skill-tag">Tailwind</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">PHP</span>
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">CSS</span>
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">HTML</span>
-                        <span class="skill-tag">Dart</span>
-                        <span class="skill-tag">Figma</span>
-                    </div>
-                </article>
-
-                <!-- hHobi article -->
-                <article class="popup-card" id="hobi">
-                    <h2>Hobi Saya</h2>
-                    <p><strong>Ngoding</strong> - Saya suka ngoding karena bisa bikin aplikasi dan website yang bermanfaat.</p>
-                    <p><strong>Main Motor</strong> - Hobi naik motor, terutama motor Aerox yang saya punya, rasanya seru buat jalan-jalan.</p>
-                    <p><strong>Bersepeda</strong> - Bersepeda untuk olahraga sekaligus refreshing, biasanya sambil keliling sekitar rumah.</p>
-                    <p><strong>Badminton</strong> - Suka main badminton untuk olahraga dan bersenang-senang bareng teman-teman.</p>
-                    <p><strong>Jogging</strong> - Jogging di pagi atau sore hari biar badan tetap sehat dan bugar.</p>
-                </article>
-            </main>
-            </main>
-
-            <!-- Sidebar dengan informasi tambahan -->
-            <aside class="fade-in-slow">
-                <h3>Profil</h3>
-                <img src="images/fotoku.jpg" alt="Profile Photo" class="profile-image">
-                
-                <h3>Kontak</h3>
-                <ul class="contact-info">
-                    <li>📧 <a href="itsikmlal@gmail.com">itsikmlal@gmail.com</a></li>
-                    <li>📱 <a href="tel:+683898787842">083898787842</a></li>
-                    <li>📍 Samarinda, Indonesia</li>
+    <!-- Header dengan -->
+    <header class="fade-in">
+        <div class="header-content">
+            <div class="logo">PORTFOLIO</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#hobi">Hobi</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-            </aside>
+            </nav>
         </div>
+    </header>
 
-        <!-- Footer -->
-        <footer class="fade-in-slow">
-            <div class="footer-content">
-                <div class="social-links">
-                    <a href="https://github.com/ikmalalo">GitHub</a>
-                    <a href="https://www.instagram.com/ikmalatte/?next=%2F">Instagram</a>
+    <!-- Main content -->
+    <main class="content-wrapper">
+        <!-- Sidebar -->
+        <aside class="fade-in-slow">
+            <h3>Profil</h3>
+            <img src="images/fotoku.jpg" alt="Profile Photo" class="profile-image">
+            
+            <h3>Kontak</h3>
+            <ul class="contact-info">
+                <li>📧 <a href="mailto:itsikmlal@gmail.com">itsikmlal@gmail.com</a></li>
+                <li>📱 <a href="tel:+6283898787842">083898787842</a></li>
+                <li>📍 Samarinda, Indonesia</li>
+            </ul>
+        </aside>
+
+        <!-- Semua artikel di sini -->
+        <article>
+            <!-- Hero section -->
+            <section class="hero fade-in-delayed" id="home">
+                <div class="hero-content">
+                    <h1>Ikmal Ali Azhari</h1>
+                    <p>Junior Full Stack Developer</p>
+                    <a href="#hobi" class="cta-button">Lihat Portfolio</a>
                 </div>
-                
+            </section>
+
+            <!-- About -->
+            <section class="popup-card" id="about">
+                <h2>Tentang Saya</h2>
+                <p>Saya suka pemrograman dan ingin terus berkembang menjadi Senior Developer seperti Sandika Ghalih. Saat ini saya masih Junior, jadi saya ingin terus belajar dan eksplor dunia IT. Di era AI ini saya memanfaatkan AI sebagai alat bantu untuk menyelesaikan projek, karena saya belum sepenuhnya seperti para Senior Developer.</p>
+            </section>
+
+            <!-- Skills -->
+            <section class="popup-card" id="skills">
+                <h2>Keahlian Teknis</h2>
+                <p>Berikut adalah teknologi dan tools yang saya kuasai:</p>
+                <div class="skills-grid">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">Bootstrap</span>
+                    <span class="skill-tag">Tailwind</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">Dart</span>
+                    <span class="skill-tag">Figma</span>
+                </div>
+            </section>
+
+            <!-- Hobi -->
+            <section class="popup-card" id="hobi">
+                <h2>Hobi Saya</h2>
+                <p><strong>Ngoding</strong> - Saya suka ngoding karena bisa bikin aplikasi dan website yang bermanfaat.</p>
+                <p><strong>Main Motor</strong> - Hobi naik motor, terutama motor Aerox yang saya punya, rasanya seru buat jalan-jalan.</p>
+                <p><strong>Bersepeda</strong> - Bersepeda untuk olahraga sekaligus refreshing, biasanya sambil keliling sekitar rumah.</p>
+                <p><strong>Badminton</strong> - Suka main badminton untuk olahraga dan bersenang-senang bareng teman-teman.</p>
+                <p><strong>Jogging</strong> - Jogging di pagi atau sore hari biar badan tetap sehat dan bugar.</p>
+            </section>
+        </article>
+    </main>
+
+    <!-- Footer di paling bawah -->
+    <footer class="fade-in-slow">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/ikmalalo">GitHub</a>
+                <a href="https://www.instagram.com/ikmalatte/?next=%2F">Instagram</a>
             </div>
-        </footer>
-    </div>
-<script src="js/home.js"></script>
+        </div>
+    </footer>
+
+    <script src="js/home.js"></script>
 </body>
 </html>
